@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Spectral", serif, arial;
+    background-color: rgba(93, 150, 237, 0.792);
+}
+
+h1, h2 {
+    font-family: "Macondo", cursive, arial;
+    margin-bottom: 15px;
+}
+
+h2 {
+    text-align: center;
+}
+
+img {
+    max-width:100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 80px;
+}
+
+.navbar {
+    background-color: rgba(247, 21, 213, 0.546);
+    height: 60px;
+    font-family: "Macondo", cursive, arial;
+    padding: 0 50px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color:antiquewhite;
+}
+
+.navbar a:hover {
+    color:aqua;
+}
+
+.navbar .logo {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 64px;
+}
+
+header {
+    background-color:#c7dce3;
+    min-height: 400px;
+}
+
+header h1 {
+    line-height: 1.1;
+}
+
+header img {
+    max-width: 400px;
+    height: auto;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
